@@ -1,0 +1,5 @@
+scrapy
+redis
+pymysql
+bs4
+chardet
