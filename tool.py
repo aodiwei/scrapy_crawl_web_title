@@ -72,9 +72,9 @@ class MySqlManage:
     def __init__(self, logger=None, long_conn=False):
         self.host = '192.168.199.29'
         self.port = 3306
-        self.database = 'ai'
+        self.database = 'crawl'
         self.user = 'root'
-        self.password = 'ZMa.123456'
+        self.password = '******'
         self.charset = 'utf8'
         self.logger = logger
         self.long_conn = long_conn
