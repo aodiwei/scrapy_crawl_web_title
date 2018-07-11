@@ -7,7 +7,7 @@ use scrapy+ redis build distributed crawler to crawl large number of title of we
 4. save crawl result in mysql
 
 # import csv to redis
->> awk -F, 'NR > 1{ print " lpush", "\"task:url:queue\"", "\""$0"\"" }' $p2 | redis-cli --pipe
+>> awk -F, 'NR > 1{ print " lpush", "\"task:url:queue\"", "\""$0"\"" }' url.csv | redis-cli --pipe
 
 # how to run
  1. pip3 install -r requirements.txt
